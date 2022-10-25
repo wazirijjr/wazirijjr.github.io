@@ -1,0 +1,1 @@
+# wazirijjr.github.io
