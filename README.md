@@ -1,2 +1,2 @@
 # wazirijjr.github.io
-this is a demo web jjr
+This is a demo web jjr
