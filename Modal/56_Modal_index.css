@@ -1,0 +1,90 @@
+
+html,body{padding:0; margin:0;height:100%;
+    }
+
+html{background-image: url('../profile/matrix-bg.jpeg');
+background-size: cover;background-position: center center;}
+
+h1,p{font-family:'Indie Flower',cursive}
+
+
+.button{font-size: 22px;
+text-align: center;line-height:44px;
+background-color:#cc4333;
+color:white;border-radius: 4px;
+padding: 5px 25px 5px 25px;
+outline: 0 !important;
+box-shadow: 0 4px 0 #af3a2a, 0 5px 5px 1px rgba(0,0,0,0.4);
+transition: all 0.15s ease-in-out;
+margin-top:-4px
+
+}
+
+.button:hover{background-color: #d25544;
+    box-shadow: 0 4px 0 #c4402f, 0 5px 5px 1px, rgba(0,0,0,0.4)
+  
+}
+
+.button:active{margin-top:0px; box-shadow: none;
+}
+
+.Close{background-color: #999;color:white;margin-top:-4px; padding: 10px;}
+    
+ .Close:hover{background-color: white;color:red ; margin-top: 0;
+        box-shadow:0 4px 0 #cecece, 0 5px 5px 1px,
+     rgba(0,0,0,0.4); transition: all 0.15s ease-in-out;
+    }
+       
+
+
+    .accept{background-color:blue;color:white;margin-top:-4px;padding: 10px;}
+    
+    .accept:hover{background-color: white;color:green ; margin-top: 0;
+           box-shadow:0 4px 0 #cecece, 0 5px 5px 1px,
+        rgba(0,0,0,0.4); transition: all 0.15s ease-in-out;
+       }
+
+
+
+
+
+
+
+
+.center{position:absolute; left: 50%;top: 50%;
+transform: translate(-50%, -50%);}
+
+.modal-background{background-color: rgba(0,0,0,0.45);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out,z-index 0.25s ease-in-out
+}
+.modal-background.active{
+    opacity:1;
+    z-index: 10;
+}
+
+.modal-box{background-color:#fff;border: 3px solid yellow;
+     position:fixed; 
+     top: 50%;
+     left: 50%;
+     max-width: 800px;
+     min-width: 600px;
+     padding: 25px;
+     z-index: 11;
+    transform: translate(-50%, -50%);
+    opacity:0;
+    z-index:-10;
+    transition: opacity 0.25s ease-in-out,z-index 0.25s ease-in-out
+}
+.modal-box.active{
+    opacity:1;
+    z-index: 11;
+}
+
+.text-right{text-align: right}
